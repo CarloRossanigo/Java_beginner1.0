@@ -22,6 +22,6 @@ java AppPianodiStudi
 
 This will execute the compiled Java program and allow you to interact with the study plan management system via the terminal.
 
-###Understanding the Compilation Process (a quick reminder)
+## Understanding the Compilation Process (a quick reminder)
 In Java, the compilation process takes the source code written in .java files and converts it into bytecode, stored in .class files. These .class files are then executed by the Java Virtual Machine (JVM) when you run the application using the java command. The classes that are compiled first (e.g., Esercizio, AppPianoDiStudi) will also automatically compile any other related classes they depend on (e.g., Esame, Voto, etc.), ensuring that the entire project is built correctly.
 
