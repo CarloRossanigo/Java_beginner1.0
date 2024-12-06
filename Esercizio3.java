@@ -47,9 +47,9 @@ public class  Esercizio3 {
    System.out.println( "Totale CFU inseriti -------> "  +  mioPiano.totCfu() );
    System.out.println( "Totale CFU acquisiti ------> "  +  mioPiano.totCfuAcquisiti() );
    mioPiano.sort(Comparator.naturalOrder());
-   System.out.println(" ORDINE ALFABETICO ESAMI: "+mioPiano.toString());
+   System.out.println(" ORDINE ALFABETICO ESAMI: \n"+mioPiano.toString());
    mioPiano.sort(new CmpOrdineVoto());
-    System.out.println(" ORDINE VOTO ESAMI: "+mioPiano.toString());
+    System.out.println(" ORDINE VOTO ESAMI: \n"+mioPiano.toString());
 
   } // end main
 } //end class
