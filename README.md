@@ -4,7 +4,7 @@ This project aims to define, as described in the PDF, all the necessary classes 
 ## Compiling and Running the Project
 To compile and run this project, you can use the javac and java commands from the terminal.
 
-### Compiling the Java Files
+## Compiling the Java Files
 First, you need to compile the Java files using the javac command. Open your terminal, navigate to the directory containing the Java files, and run the following command:
 
 javac *.java
