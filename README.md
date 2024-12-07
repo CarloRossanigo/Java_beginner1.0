@@ -11,7 +11,7 @@ javac *.java
 
 This command compiles all .java files in the current directory. If you want to compile only specific files (such as the ones for the main application), you can run:
 
-javac Esercizio.java AppPianodiStudi.java
+javac AppPianodiStudi.java
 
 This will compile the Java files related to the project, including all classes that are involved (such as Esame, Voto, PianoDiStudi, etc.). The result will be the creation of .class files for each class in the project.
 
